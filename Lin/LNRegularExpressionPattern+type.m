@@ -35,7 +35,7 @@ static NSString * const LNRegularExpressionPatternTypePropertyKey = @"type";
     switch (type) {
         case LNEntityTypeLocalizedString:
         {
-            pettern = @"NSLocalizedString\\s*\\(\\s*@\"(.*?)\"\\s*,\\s*(.*?)\\s*\\)";
+            pettern = @"LocalizedString\\s*\\(\\s*@\"(.*?)\"\\s*,?\\s*(.*?)\\s*\\)";
             numberOfRanges = 3;
         }
             break;

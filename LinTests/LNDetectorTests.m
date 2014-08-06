@@ -36,6 +36,21 @@
     [super tearDown];
 }
 
+- (void)testCustomLocalizedString
+{
+    [self performTests:
+     [[LNDetectorTestSet alloc] initWithString:@"DXLocalizedString(@\"key\");"
+                                          keys:@"key", nil],
+     
+     [[LNDetectorTestSet alloc] initWithString:@"DXLocalizedString ( @\"key\" , nil );"
+                                          keys:@"key", nil],
+     [[LNDetectorTestSet alloc] initWithString:@"NSString *value = LocalizedString(@\"key\", nil);"
+                                          keys:@"key", nil],
+     [[LNDetectorTestSet alloc] initWithString:@"NSLog(@\"value1 = %@, value2 = %@\", DXLocalizedString(@\"key1\"), DXLocalizedString(@\"key2\", nil));"
+                                          keys:@"key1", @"key2", nil],
+     nil];
+}
+
 - (void)testLocalizedString
 {
     [self performTests:
