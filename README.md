@@ -12,6 +12,10 @@ Lin for Xcode 4 (previous version)
 
 
 
+
+## Modify by this repo
+1. Add support for *LocalizedString and add a test case for that
+
 ## Features
 When you are focusing on NSLocalizedString or other functions to get a localized version of a string, Lin shows the list of localizations that contains the inputted key string.
 
