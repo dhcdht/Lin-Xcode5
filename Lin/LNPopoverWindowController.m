@@ -15,6 +15,8 @@ NSString * const LNPopoverWindowControllerWindowWillCloseNotification = @"LNPopo
 
 @implementation LNPopoverWindowController
 
+@synthesize contentViewController = _contentViewController;
+
 - (instancetype)initWithContentViewController:(NSViewController *)contentViewController
 {
     LNPopoverWindow *popoverWindow = [LNPopoverWindow popoverWindow];
