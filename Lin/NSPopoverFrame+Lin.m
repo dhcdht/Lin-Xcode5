@@ -69,6 +69,7 @@
                                                  4 * size.width,
                                                  colorSpace,
                                                  (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
+    CFRelease(colorSpace);
     
     CGContextClipToMask(context, CGRectMake(0, 0, size.width, size.height), maskImage);
     
