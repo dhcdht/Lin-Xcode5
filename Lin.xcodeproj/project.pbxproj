@@ -12,7 +12,6 @@
 		AA1B7DA717C3C1EC00A3A6D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1B7DA617C3C1EC00A3A6D7 /* Cocoa.framework */; };
 		AA1B7DB117C3C1EC00A3A6D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1B7DAF17C3C1EC00A3A6D7 /* InfoPlist.strings */; };
 		AA1B7DBA17C3C20F00A3A6D7 /* Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B7DB917C3C20F00A3A6D7 /* Lin.m */; };
-		AA20D87F17ECB12A006B7CA2 /* NSPopoverFrame+Lin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA20D87E17ECB12A006B7CA2 /* NSPopoverFrame+Lin.m */; };
 		AA2980B417EE2C5300CF46E3 /* LNUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2980B317EE2C5300CF46E3 /* LNUserDefaultsManager.m */; };
 		AA36376617D9EF9E003C5E55 /* LNPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA36376517D9EF9E003C5E55 /* LNPopoverContentView.m */; };
 		AA3EC36F17EB2A290003A180 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3EC36D17EB2A290003A180 /* DVTFoundation.framework */; };
@@ -88,8 +87,6 @@
 		AA1B7DB217C3C1EC00A3A6D7 /* Lin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lin-Prefix.pch"; sourceTree = "<group>"; };
 		AA1B7DB817C3C20F00A3A6D7 /* Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lin.h; sourceTree = "<group>"; };
 		AA1B7DB917C3C20F00A3A6D7 /* Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lin.m; sourceTree = "<group>"; };
-		AA20D87D17ECB12A006B7CA2 /* NSPopoverFrame+Lin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPopoverFrame+Lin.h"; sourceTree = "<group>"; };
-		AA20D87E17ECB12A006B7CA2 /* NSPopoverFrame+Lin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPopoverFrame+Lin.m"; sourceTree = "<group>"; };
 		AA20D88017ECB1AD006B7CA2 /* NSPopoverFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPopoverFrame.h; sourceTree = "<group>"; };
 		AA2980B217EE2C5300CF46E3 /* LNUserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNUserDefaultsManager.h; sourceTree = "<group>"; };
 		AA2980B317EE2C5300CF46E3 /* LNUserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNUserDefaultsManager.m; sourceTree = "<group>"; };
@@ -366,8 +363,6 @@
 				AADDDA9317C49D4800BBA67C /* NSBundle+versions.m */,
 				AADEADB517C87298001E0C65 /* IDEIndex+Lin.h */,
 				AADEADB617C87298001E0C65 /* IDEIndex+Lin.m */,
-				AA20D87D17ECB12A006B7CA2 /* NSPopoverFrame+Lin.h */,
-				AA20D87E17ECB12A006B7CA2 /* NSPopoverFrame+Lin.m */,
 				AA8F8EEE17EDFC68004964FB /* NSTableView+editedColumnIdentifier.h */,
 				AA8F8EEF17EDFC68004964FB /* NSTableView+editedColumnIdentifier.m */,
 			);
@@ -539,7 +534,6 @@
 				AAAC873B17EDA9CF00BF251D /* LNPopoverWindow.m in Sources */,
 				AA8F8EF017EDFC68004964FB /* NSTableView+editedColumnIdentifier.m in Sources */,
 				AA6377CE18C5CCFC005EADC7 /* LNImageButtonCell.m in Sources */,
-				AA20D87F17ECB12A006B7CA2 /* NSPopoverFrame+Lin.m in Sources */,
 				AA02CE8E17EE083A0041C2BD /* LNAlertAccessoryView.m in Sources */,
 				AA36376617D9EF9E003C5E55 /* LNPopoverContentView.m in Sources */,
 				AA470D5E17C3D05D005CBB7F /* LNEntity.m in Sources */,

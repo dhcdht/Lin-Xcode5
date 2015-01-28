@@ -1,5 +1,5 @@
 # Lin
-Lin is a open source plug-in for **Xcode 5**.  
+Lin is a open source plug-in for **Xcode 5+**.  
 It lets you search/manage localizations without opening the .strings files.
 
 [![Build Status](https://travis-ci.org/questbeat/Lin-Xcode5.svg?branch=master)](https://travis-ci.org/questbeat/Lin-Xcode5)
@@ -15,6 +15,7 @@ Lin for Xcode 4 (previous version)
 
 ## Modify by this repo
 1. Add support for *LocalizedString and add a test case for that
+2. Fix crash on Mac OS X 10.10 (Yosemite)
 
 ## Features
 When you are focusing on NSLocalizedString or other functions to get a localized version of a string, Lin shows the list of localizations that contains the inputted key string.
